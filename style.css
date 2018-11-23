@@ -42,15 +42,15 @@ header {
     background-color: #666666;
     border-top: solid 7px #4aaaa5;
     height: 60px; 
-    width: 100%; 
-    margin-left: 0px; 
+    width: 101%; 
+    margin-left: -8px; 
     color: white; 
     text-align: center; 
     padding-top: 15px;
     margin-bottom: 0px;
 }
 
-#aboutme {
+.event {
     background-color: #ffffff;
     width: 960px; 
     height:  500px; 
@@ -67,6 +67,7 @@ h2 {
     height: 25px; 
     font-size: 26px; 
     font-family: Georgia, 'Times New Roman', Times, serif;
+    /* border-bottom: 3px #cccccc solid;  */
 }
 
 #selfie {
@@ -81,7 +82,7 @@ h2 {
 }
 
 
-#content {
+.content {
     font-family: Arial; 
     color: gray; 
     border-top: 3px #cccccc solid; 
@@ -89,4 +90,36 @@ h2 {
     height: 420px;  
     font-size: 22px; 
     
+}
+
+form {
+    height: 50%; 
+    width: 100%; 
+    margin: 10px; 
+}
+
+.fillin {
+    width: 90%; 
+    height: 20px; 
+    margin: 8px; 
+}
+
+#messages {
+    width: 90%; 
+    height: 90%; 
+}
+
+#submit {
+    width: 10%; 
+    height: 30px; 
+    background-color: #4aaaa5; 
+    margin-top: 20px; 
+    color: white; 
+    border-radius: 15px;
+}
+
+input {
+    font-size: 16px; 
+    color: gray; 
+
 }

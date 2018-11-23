@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Miles Kenner's Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="style.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css"/>
     <!-- <script src="main.js"></script> -->
 </head>
 <header>
@@ -14,30 +14,22 @@
     </div>
     <!-- Ask why position moves when I shrink the web browser.-->
     <div id="about" class="nav"> 
-        About
+        <a href="#About Me">About</a>
     </div>
     <div id="portfolio" class="nav">
-        Portfolio
+       <a href="#pics">Portfolio</a> 
     </div>
     <div id="contact" class="nav">
-        Contact 
+        <a href="#Hit Me Up">Contact</a>
     </div>
-    <!-- <span id="about" class="nav"> 
-            About
-    </span>
-        <span id="portfolio" class="nav">
-            Portfolio
-        </span>
-        <span id="contact" class="nav">
-            Contact 
-        </span> -->
+   
 </header>
 <body>
-    <div id="aboutme">
+    <div class="event" id="About Me">
         <h2>
             About Me
         </h2>
-        <div id="content"> 
+        <div class="content"> 
             <div id="selfie">
                 <!-- <p>
                     Selfie Placeholder
@@ -68,9 +60,52 @@
             </p>        
         </div>
     </div>
+
+    <div class="event"  id="pics">
+       <h2>
+           Portfolio
+       </h2>
+       <div class="content">
+           <div class="pics"></div>
+
+
+
+
+
+
+       </div>
+
+    </div>
+
+    <div class="event" id="contact">
+            <h2 id="Hit Me Up">
+                Contact
+            </h2>
+            <div class="content">
+            <form>
+                Name <br> 
+                <input type="text" name="John Smith" class="fillin"><br>
+                Email <br>
+                <input type="test" name="example&#64gmail.com" class="fillin"><br>
+                Message<br> 
+                <!-- Why doesn't the text start at the beginning of the text box?   -->
+                <input type="text" name="Input text here" id="messages"><br> 
+                <input type="submit" value="submit" id="submit"> 
+             </form>
+
+            </div>
+     
+
+
+
+
+
+            
+     
+         </div>
     <div id="footer">
         Copyright &copy
     </div>
 </body>
-
+a
 </html>
