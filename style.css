@@ -19,28 +19,32 @@ header {
     color: #ffffff; 
     font-family: Georgia; 
     font-size: 28px; 
-    height: 50px; 
+    height: 60px; 
     width:200px; 
     text-align: center; 
-    padding-top: 10px;
+    padding-top: 15px;
     margin-left: 380px; 
     margin-right: 500px;
     margin-top: 0px; 
 }
 
 .nav {
+    box-sizing: border-box;
     border-right: 1px solid #777777;
     float: left;
     width: 100px;
-    text-align: center;
-    padding-top: 2px;
-    height: 16px;
-    margin-top: 16px; 
+    padding: 3px;
+    height: 30px;
+    margin: 12px; 
 }
+
+.nav:hover {
+    background-color: pink;
+} 
 
 #footer {
     background-color: #666666;
-    border-top: solid 7px #4aaaa5;
+    border-top: solid 8px #4aaaa5;
     height: 60px; 
     width: 101%; 
     margin-left: -8px; 
@@ -122,4 +126,47 @@ input {
     font-size: 16px; 
     color: gray; 
 
+}
+
+.pics {
+    box-sizing: border-box; 
+    width: 270px; 
+    height: 170px; 
+    margin: 20px; 
+    padding: 10px;
+    text-align: center;
+    border: solid 2px #4aaaa5; 
+    float: left; 
+    color: white; 
+}
+
+.banner {
+    background-color: #4aaaa5;
+    margin-top: 120px; 
+    opacity: 0.85;
+}
+
+#food {
+    background-image: url(images/food.jpg);
+    background-repeat: none; 
+}
+
+#games {
+    background-image: url(images/games.jpg);
+    background-repeat: none; 
+}
+
+#sleep {
+    background-image: url(images/sleep.jpg);
+    background-repeat: none;
+}
+
+#movies {
+    background-image: url(images/movies.jpg\ .jpeg);
+    background-repeat: none;
+}
+
+#music {
+    background-image: url(images/music.jpg);
+    background-repeat: none; 
 }
